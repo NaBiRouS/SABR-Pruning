@@ -1,0 +1,96 @@
+PRUNING SUMMARY
+==================================================
+Pruning method: Standard deviation-based (teta1 = 0.2, gamma = 0.1)
+Original accuracy: 0.9943
+Pruned accuracy: 0.9914
+Accuracy change: -0.0029
+Initial sparsity: 85.76%
+Final sparsity: 97.66%
+Sparsity increase: 11.90%
+Total parameters: 22,069,952
+Non-zero parameters: 515,534
+Pruned parameters: 21,554,418
+==================================================
+
+LAYER-WISE SPARSITY
+==================================================
+Layer: features.0.weight
+  Total Parameters: 1,728
+  Non-Zero Parameters: 912
+  Pruned Parameters: 816
+  Sparsity: 47.22%
+  Threshold: 0.079938
+  Standard Deviation: 0.399691
+
+Layer: features.3.weight
+  Total Parameters: 73,728
+  Non-Zero Parameters: 8,991
+  Pruned Parameters: 64,737
+  Sparsity: 87.81%
+  Threshold: 0.018843
+  Standard Deviation: 0.094213
+
+Layer: features.6.weight
+  Total Parameters: 294,912
+  Non-Zero Parameters: 25,367
+  Pruned Parameters: 269,545
+  Sparsity: 91.40%
+  Threshold: 0.008780
+  Standard Deviation: 0.043900
+
+Layer: features.8.weight
+  Total Parameters: 589,824
+  Non-Zero Parameters: 38,276
+  Pruned Parameters: 551,548
+  Sparsity: 93.51%
+  Threshold: 0.006826
+  Standard Deviation: 0.034129
+
+Layer: features.11.weight
+  Total Parameters: 1,179,648
+  Non-Zero Parameters: 53,174
+  Pruned Parameters: 1,126,474
+  Sparsity: 95.49%
+  Threshold: 0.005559
+  Standard Deviation: 0.027795
+
+Layer: features.13.weight
+  Total Parameters: 2,359,296
+  Non-Zero Parameters: 64,873
+  Pruned Parameters: 2,294,423
+  Sparsity: 97.25%
+  Threshold: 0.004465
+  Standard Deviation: 0.022324
+
+Layer: features.16.weight
+  Total Parameters: 2,359,296
+  Non-Zero Parameters: 65,435
+  Pruned Parameters: 2,293,861
+  Sparsity: 97.23%
+  Threshold: 0.004025
+  Standard Deviation: 0.020127
+
+Layer: features.18.weight
+  Total Parameters: 2,359,296
+  Non-Zero Parameters: 44,332
+  Pruned Parameters: 2,314,964
+  Sparsity: 98.12%
+  Threshold: 0.003700
+  Standard Deviation: 0.018499
+
+Layer: classifier.0.weight
+  Total Parameters: 12,845,056
+  Non-Zero Parameters: 210,486
+  Pruned Parameters: 12,634,570
+  Sparsity: 98.36%
+  Threshold: 0.000937
+  Standard Deviation: 0.004687
+
+Layer: classifier.3.weight
+  Total Parameters: 7,168
+  Non-Zero Parameters: 3,688
+  Pruned Parameters: 3,480
+  Sparsity: 48.55%
+  Threshold: 0.005223
+  Standard Deviation: 0.026115
+

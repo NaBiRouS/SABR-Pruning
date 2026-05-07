@@ -1,0 +1,856 @@
+PRUNING SUMMARY
+==================================================
+Pruning method: Standard deviation-based (teta1 = 0.05, gamma = 0.025)
+Original accuracy: 0.9936
+Pruned accuracy: 0.9843
+Accuracy change: -0.0093
+Initial sparsity: 86.25%
+Final sparsity: 95.61%
+Sparsity increase: 9.35%
+Total parameters: 2,224,736
+Non-zero parameters: 97,747
+Pruned parameters: 2,126,989
+==================================================
+
+LAYER-WISE SPARSITY
+==================================================
+Layer: features.0.0.weight
+  Total Parameters: 864
+  Non-Zero Parameters: 239
+  Pruned Parameters: 625
+  Sparsity: 72.34%
+  Threshold: 0.016191
+  Standard Deviation: 0.323812
+
+Layer: features.0.1.weight
+  Total Parameters: 32
+  Non-Zero Parameters: 25
+  Pruned Parameters: 7
+  Sparsity: 21.88%
+  Threshold: 0.005204
+  Standard Deviation: 0.104084
+
+Layer: features.1.conv.0.0.weight
+  Total Parameters: 288
+  Non-Zero Parameters: 93
+  Pruned Parameters: 195
+  Sparsity: 67.71%
+  Threshold: 0.034479
+  Standard Deviation: 0.689575
+
+Layer: features.1.conv.0.1.weight
+  Total Parameters: 32
+  Non-Zero Parameters: 25
+  Pruned Parameters: 7
+  Sparsity: 21.88%
+  Threshold: 0.014329
+  Standard Deviation: 0.286581
+
+Layer: features.1.conv.1.weight
+  Total Parameters: 512
+  Non-Zero Parameters: 193
+  Pruned Parameters: 319
+  Sparsity: 62.30%
+  Threshold: 0.011677
+  Standard Deviation: 0.233544
+
+Layer: features.1.conv.2.weight
+  Total Parameters: 16
+  Non-Zero Parameters: 16
+  Pruned Parameters: 0
+  Sparsity: 0.00%
+  Threshold: 0.003415
+  Standard Deviation: 0.068297
+
+Layer: features.2.conv.0.0.weight
+  Total Parameters: 1,536
+  Non-Zero Parameters: 572
+  Pruned Parameters: 964
+  Sparsity: 62.76%
+  Threshold: 0.007192
+  Standard Deviation: 0.143845
+
+Layer: features.2.conv.0.1.weight
+  Total Parameters: 96
+  Non-Zero Parameters: 95
+  Pruned Parameters: 1
+  Sparsity: 1.04%
+  Threshold: 0.004645
+  Standard Deviation: 0.092901
+
+Layer: features.2.conv.1.0.weight
+  Total Parameters: 864
+  Non-Zero Parameters: 392
+  Pruned Parameters: 472
+  Sparsity: 54.63%
+  Threshold: 0.005634
+  Standard Deviation: 0.112690
+
+Layer: features.2.conv.1.1.weight
+  Total Parameters: 96
+  Non-Zero Parameters: 94
+  Pruned Parameters: 2
+  Sparsity: 2.08%
+  Threshold: 0.005232
+  Standard Deviation: 0.104635
+
+Layer: features.2.conv.2.weight
+  Total Parameters: 2,304
+  Non-Zero Parameters: 778
+  Pruned Parameters: 1,526
+  Sparsity: 66.23%
+  Threshold: 0.006714
+  Standard Deviation: 0.134279
+
+Layer: features.2.conv.3.weight
+  Total Parameters: 24
+  Non-Zero Parameters: 24
+  Pruned Parameters: 0
+  Sparsity: 0.00%
+  Threshold: 0.004508
+  Standard Deviation: 0.090160
+
+Layer: features.3.conv.0.0.weight
+  Total Parameters: 3,456
+  Non-Zero Parameters: 920
+  Pruned Parameters: 2,536
+  Sparsity: 73.38%
+  Threshold: 0.004284
+  Standard Deviation: 0.085673
+
+Layer: features.3.conv.0.1.weight
+  Total Parameters: 144
+  Non-Zero Parameters: 142
+  Pruned Parameters: 2
+  Sparsity: 1.39%
+  Threshold: 0.002976
+  Standard Deviation: 0.059516
+
+Layer: features.3.conv.1.0.weight
+  Total Parameters: 1,296
+  Non-Zero Parameters: 402
+  Pruned Parameters: 894
+  Sparsity: 68.98%
+  Threshold: 0.008627
+  Standard Deviation: 0.172536
+
+Layer: features.3.conv.1.1.weight
+  Total Parameters: 144
+  Non-Zero Parameters: 142
+  Pruned Parameters: 2
+  Sparsity: 1.39%
+  Threshold: 0.003403
+  Standard Deviation: 0.068052
+
+Layer: features.3.conv.2.weight
+  Total Parameters: 3,456
+  Non-Zero Parameters: 859
+  Pruned Parameters: 2,597
+  Sparsity: 75.14%
+  Threshold: 0.004712
+  Standard Deviation: 0.094237
+
+Layer: features.3.conv.3.weight
+  Total Parameters: 24
+  Non-Zero Parameters: 24
+  Pruned Parameters: 0
+  Sparsity: 0.00%
+  Threshold: 0.004509
+  Standard Deviation: 0.090173
+
+Layer: features.4.conv.0.0.weight
+  Total Parameters: 3,456
+  Non-Zero Parameters: 1,057
+  Pruned Parameters: 2,399
+  Sparsity: 69.42%
+  Threshold: 0.006179
+  Standard Deviation: 0.123587
+
+Layer: features.4.conv.0.1.weight
+  Total Parameters: 144
+  Non-Zero Parameters: 134
+  Pruned Parameters: 10
+  Sparsity: 6.94%
+  Threshold: 0.003830
+  Standard Deviation: 0.076596
+
+Layer: features.4.conv.1.0.weight
+  Total Parameters: 1,296
+  Non-Zero Parameters: 627
+  Pruned Parameters: 669
+  Sparsity: 51.62%
+  Threshold: 0.002704
+  Standard Deviation: 0.054071
+
+Layer: features.4.conv.1.1.weight
+  Total Parameters: 144
+  Non-Zero Parameters: 142
+  Pruned Parameters: 2
+  Sparsity: 1.39%
+  Threshold: 0.003451
+  Standard Deviation: 0.069030
+
+Layer: features.4.conv.2.weight
+  Total Parameters: 4,608
+  Non-Zero Parameters: 1,253
+  Pruned Parameters: 3,355
+  Sparsity: 72.81%
+  Threshold: 0.005560
+  Standard Deviation: 0.111209
+
+Layer: features.4.conv.3.weight
+  Total Parameters: 32
+  Non-Zero Parameters: 32
+  Pruned Parameters: 0
+  Sparsity: 0.00%
+  Threshold: 0.004121
+  Standard Deviation: 0.082425
+
+Layer: features.5.conv.0.0.weight
+  Total Parameters: 6,144
+  Non-Zero Parameters: 1,112
+  Pruned Parameters: 5,032
+  Sparsity: 81.90%
+  Threshold: 0.003114
+  Standard Deviation: 0.062284
+
+Layer: features.5.conv.0.1.weight
+  Total Parameters: 192
+  Non-Zero Parameters: 173
+  Pruned Parameters: 19
+  Sparsity: 9.90%
+  Threshold: 0.001774
+  Standard Deviation: 0.035482
+
+Layer: features.5.conv.1.0.weight
+  Total Parameters: 1,728
+  Non-Zero Parameters: 410
+  Pruned Parameters: 1,318
+  Sparsity: 76.27%
+  Threshold: 0.006681
+  Standard Deviation: 0.133618
+
+Layer: features.5.conv.1.1.weight
+  Total Parameters: 192
+  Non-Zero Parameters: 180
+  Pruned Parameters: 12
+  Sparsity: 6.25%
+  Threshold: 0.003608
+  Standard Deviation: 0.072153
+
+Layer: features.5.conv.2.weight
+  Total Parameters: 6,144
+  Non-Zero Parameters: 983
+  Pruned Parameters: 5,161
+  Sparsity: 84.00%
+  Threshold: 0.003361
+  Standard Deviation: 0.067216
+
+Layer: features.5.conv.3.weight
+  Total Parameters: 32
+  Non-Zero Parameters: 32
+  Pruned Parameters: 0
+  Sparsity: 0.00%
+  Threshold: 0.004846
+  Standard Deviation: 0.096922
+
+Layer: features.6.conv.0.0.weight
+  Total Parameters: 6,144
+  Non-Zero Parameters: 1,016
+  Pruned Parameters: 5,128
+  Sparsity: 83.46%
+  Threshold: 0.002603
+  Standard Deviation: 0.052054
+
+Layer: features.6.conv.0.1.weight
+  Total Parameters: 192
+  Non-Zero Parameters: 173
+  Pruned Parameters: 19
+  Sparsity: 9.90%
+  Threshold: 0.001375
+  Standard Deviation: 0.027506
+
+Layer: features.6.conv.1.0.weight
+  Total Parameters: 1,728
+  Non-Zero Parameters: 441
+  Pruned Parameters: 1,287
+  Sparsity: 74.48%
+  Threshold: 0.004995
+  Standard Deviation: 0.099908
+
+Layer: features.6.conv.1.1.weight
+  Total Parameters: 192
+  Non-Zero Parameters: 185
+  Pruned Parameters: 7
+  Sparsity: 3.65%
+  Threshold: 0.003136
+  Standard Deviation: 0.062724
+
+Layer: features.6.conv.2.weight
+  Total Parameters: 6,144
+  Non-Zero Parameters: 882
+  Pruned Parameters: 5,262
+  Sparsity: 85.64%
+  Threshold: 0.002810
+  Standard Deviation: 0.056191
+
+Layer: features.6.conv.3.weight
+  Total Parameters: 32
+  Non-Zero Parameters: 32
+  Pruned Parameters: 0
+  Sparsity: 0.00%
+  Threshold: 0.003613
+  Standard Deviation: 0.072255
+
+Layer: features.7.conv.0.0.weight
+  Total Parameters: 6,144
+  Non-Zero Parameters: 1,616
+  Pruned Parameters: 4,528
+  Sparsity: 73.70%
+  Threshold: 0.004896
+  Standard Deviation: 0.097927
+
+Layer: features.7.conv.0.1.weight
+  Total Parameters: 192
+  Non-Zero Parameters: 181
+  Pruned Parameters: 11
+  Sparsity: 5.73%
+  Threshold: 0.002548
+  Standard Deviation: 0.050950
+
+Layer: features.7.conv.1.0.weight
+  Total Parameters: 1,728
+  Non-Zero Parameters: 791
+  Pruned Parameters: 937
+  Sparsity: 54.22%
+  Threshold: 0.002590
+  Standard Deviation: 0.051802
+
+Layer: features.7.conv.1.1.weight
+  Total Parameters: 192
+  Non-Zero Parameters: 190
+  Pruned Parameters: 2
+  Sparsity: 1.04%
+  Threshold: 0.002250
+  Standard Deviation: 0.044995
+
+Layer: features.7.conv.2.weight
+  Total Parameters: 12,288
+  Non-Zero Parameters: 2,611
+  Pruned Parameters: 9,677
+  Sparsity: 78.75%
+  Threshold: 0.003887
+  Standard Deviation: 0.077736
+
+Layer: features.7.conv.3.weight
+  Total Parameters: 64
+  Non-Zero Parameters: 64
+  Pruned Parameters: 0
+  Sparsity: 0.00%
+  Threshold: 0.003847
+  Standard Deviation: 0.076949
+
+Layer: features.8.conv.0.0.weight
+  Total Parameters: 24,576
+  Non-Zero Parameters: 2,395
+  Pruned Parameters: 22,181
+  Sparsity: 90.25%
+  Threshold: 0.001803
+  Standard Deviation: 0.036051
+
+Layer: features.8.conv.0.1.weight
+  Total Parameters: 384
+  Non-Zero Parameters: 320
+  Pruned Parameters: 64
+  Sparsity: 16.67%
+  Threshold: 0.001387
+  Standard Deviation: 0.027731
+
+Layer: features.8.conv.1.0.weight
+  Total Parameters: 3,456
+  Non-Zero Parameters: 548
+  Pruned Parameters: 2,908
+  Sparsity: 84.14%
+  Threshold: 0.005604
+  Standard Deviation: 0.112070
+
+Layer: features.8.conv.1.1.weight
+  Total Parameters: 384
+  Non-Zero Parameters: 348
+  Pruned Parameters: 36
+  Sparsity: 9.38%
+  Threshold: 0.003023
+  Standard Deviation: 0.060462
+
+Layer: features.8.conv.2.weight
+  Total Parameters: 24,576
+  Non-Zero Parameters: 2,162
+  Pruned Parameters: 22,414
+  Sparsity: 91.20%
+  Threshold: 0.002029
+  Standard Deviation: 0.040570
+
+Layer: features.8.conv.3.weight
+  Total Parameters: 64
+  Non-Zero Parameters: 64
+  Pruned Parameters: 0
+  Sparsity: 0.00%
+  Threshold: 0.004240
+  Standard Deviation: 0.084801
+
+Layer: features.9.conv.0.0.weight
+  Total Parameters: 24,576
+  Non-Zero Parameters: 1,893
+  Pruned Parameters: 22,683
+  Sparsity: 92.30%
+  Threshold: 0.001789
+  Standard Deviation: 0.035775
+
+Layer: features.9.conv.0.1.weight
+  Total Parameters: 384
+  Non-Zero Parameters: 270
+  Pruned Parameters: 114
+  Sparsity: 29.69%
+  Threshold: 0.001338
+  Standard Deviation: 0.026764
+
+Layer: features.9.conv.1.0.weight
+  Total Parameters: 3,456
+  Non-Zero Parameters: 506
+  Pruned Parameters: 2,950
+  Sparsity: 85.36%
+  Threshold: 0.003789
+  Standard Deviation: 0.075772
+
+Layer: features.9.conv.1.1.weight
+  Total Parameters: 384
+  Non-Zero Parameters: 311
+  Pruned Parameters: 73
+  Sparsity: 19.01%
+  Threshold: 0.002825
+  Standard Deviation: 0.056506
+
+Layer: features.9.conv.2.weight
+  Total Parameters: 24,576
+  Non-Zero Parameters: 1,598
+  Pruned Parameters: 22,978
+  Sparsity: 93.50%
+  Threshold: 0.001882
+  Standard Deviation: 0.037644
+
+Layer: features.9.conv.3.weight
+  Total Parameters: 64
+  Non-Zero Parameters: 64
+  Pruned Parameters: 0
+  Sparsity: 0.00%
+  Threshold: 0.002369
+  Standard Deviation: 0.047379
+
+Layer: features.10.conv.0.0.weight
+  Total Parameters: 24,576
+  Non-Zero Parameters: 1,910
+  Pruned Parameters: 22,666
+  Sparsity: 92.23%
+  Threshold: 0.001787
+  Standard Deviation: 0.035742
+
+Layer: features.10.conv.0.1.weight
+  Total Parameters: 384
+  Non-Zero Parameters: 263
+  Pruned Parameters: 121
+  Sparsity: 31.51%
+  Threshold: 0.001479
+  Standard Deviation: 0.029574
+
+Layer: features.10.conv.1.0.weight
+  Total Parameters: 3,456
+  Non-Zero Parameters: 488
+  Pruned Parameters: 2,968
+  Sparsity: 85.88%
+  Threshold: 0.003044
+  Standard Deviation: 0.060880
+
+Layer: features.10.conv.1.1.weight
+  Total Parameters: 384
+  Non-Zero Parameters: 301
+  Pruned Parameters: 83
+  Sparsity: 21.61%
+  Threshold: 0.002762
+  Standard Deviation: 0.055250
+
+Layer: features.10.conv.2.weight
+  Total Parameters: 24,576
+  Non-Zero Parameters: 1,481
+  Pruned Parameters: 23,095
+  Sparsity: 93.97%
+  Threshold: 0.001948
+  Standard Deviation: 0.038969
+
+Layer: features.10.conv.3.weight
+  Total Parameters: 64
+  Non-Zero Parameters: 64
+  Pruned Parameters: 0
+  Sparsity: 0.00%
+  Threshold: 0.002459
+  Standard Deviation: 0.049181
+
+Layer: features.11.conv.0.0.weight
+  Total Parameters: 24,576
+  Non-Zero Parameters: 4,063
+  Pruned Parameters: 20,513
+  Sparsity: 83.47%
+  Threshold: 0.002780
+  Standard Deviation: 0.055609
+
+Layer: features.11.conv.0.1.weight
+  Total Parameters: 384
+  Non-Zero Parameters: 359
+  Pruned Parameters: 25
+  Sparsity: 6.51%
+  Threshold: 0.001510
+  Standard Deviation: 0.030199
+
+Layer: features.11.conv.1.0.weight
+  Total Parameters: 3,456
+  Non-Zero Parameters: 630
+  Pruned Parameters: 2,826
+  Sparsity: 81.77%
+  Threshold: 0.004688
+  Standard Deviation: 0.093756
+
+Layer: features.11.conv.1.1.weight
+  Total Parameters: 384
+  Non-Zero Parameters: 372
+  Pruned Parameters: 12
+  Sparsity: 3.12%
+  Threshold: 0.003489
+  Standard Deviation: 0.069779
+
+Layer: features.11.conv.2.weight
+  Total Parameters: 36,864
+  Non-Zero Parameters: 5,033
+  Pruned Parameters: 31,831
+  Sparsity: 86.35%
+  Threshold: 0.002580
+  Standard Deviation: 0.051597
+
+Layer: features.11.conv.3.weight
+  Total Parameters: 96
+  Non-Zero Parameters: 96
+  Pruned Parameters: 0
+  Sparsity: 0.00%
+  Threshold: 0.001990
+  Standard Deviation: 0.039804
+
+Layer: features.12.conv.0.0.weight
+  Total Parameters: 55,296
+  Non-Zero Parameters: 4,087
+  Pruned Parameters: 51,209
+  Sparsity: 92.61%
+  Threshold: 0.001810
+  Standard Deviation: 0.036197
+
+Layer: features.12.conv.0.1.weight
+  Total Parameters: 576
+  Non-Zero Parameters: 391
+  Pruned Parameters: 185
+  Sparsity: 32.12%
+  Threshold: 0.001509
+  Standard Deviation: 0.030180
+
+Layer: features.12.conv.1.0.weight
+  Total Parameters: 5,184
+  Non-Zero Parameters: 660
+  Pruned Parameters: 4,524
+  Sparsity: 87.27%
+  Threshold: 0.003404
+  Standard Deviation: 0.068083
+
+Layer: features.12.conv.1.1.weight
+  Total Parameters: 576
+  Non-Zero Parameters: 459
+  Pruned Parameters: 117
+  Sparsity: 20.31%
+  Threshold: 0.003087
+  Standard Deviation: 0.061743
+
+Layer: features.12.conv.2.weight
+  Total Parameters: 55,296
+  Non-Zero Parameters: 3,132
+  Pruned Parameters: 52,164
+  Sparsity: 94.34%
+  Threshold: 0.001780
+  Standard Deviation: 0.035608
+
+Layer: features.12.conv.3.weight
+  Total Parameters: 96
+  Non-Zero Parameters: 96
+  Pruned Parameters: 0
+  Sparsity: 0.00%
+  Threshold: 0.002194
+  Standard Deviation: 0.043881
+
+Layer: features.13.conv.0.0.weight
+  Total Parameters: 55,296
+  Non-Zero Parameters: 3,011
+  Pruned Parameters: 52,285
+  Sparsity: 94.55%
+  Threshold: 0.001786
+  Standard Deviation: 0.035728
+
+Layer: features.13.conv.0.1.weight
+  Total Parameters: 576
+  Non-Zero Parameters: 344
+  Pruned Parameters: 232
+  Sparsity: 40.28%
+  Threshold: 0.001698
+  Standard Deviation: 0.033967
+
+Layer: features.13.conv.1.0.weight
+  Total Parameters: 5,184
+  Non-Zero Parameters: 484
+  Pruned Parameters: 4,700
+  Sparsity: 90.66%
+  Threshold: 0.003153
+  Standard Deviation: 0.063055
+
+Layer: features.13.conv.1.1.weight
+  Total Parameters: 576
+  Non-Zero Parameters: 416
+  Pruned Parameters: 160
+  Sparsity: 27.78%
+  Threshold: 0.003193
+  Standard Deviation: 0.063853
+
+Layer: features.13.conv.2.weight
+  Total Parameters: 55,296
+  Non-Zero Parameters: 2,048
+  Pruned Parameters: 53,248
+  Sparsity: 96.30%
+  Threshold: 0.002200
+  Standard Deviation: 0.043993
+
+Layer: features.13.conv.3.weight
+  Total Parameters: 96
+  Non-Zero Parameters: 96
+  Pruned Parameters: 0
+  Sparsity: 0.00%
+  Threshold: 0.003888
+  Standard Deviation: 0.077766
+
+Layer: features.14.conv.0.0.weight
+  Total Parameters: 55,296
+  Non-Zero Parameters: 3,615
+  Pruned Parameters: 51,681
+  Sparsity: 93.46%
+  Threshold: 0.002231
+  Standard Deviation: 0.044621
+
+Layer: features.14.conv.0.1.weight
+  Total Parameters: 576
+  Non-Zero Parameters: 422
+  Pruned Parameters: 154
+  Sparsity: 26.74%
+  Threshold: 0.002709
+  Standard Deviation: 0.054179
+
+Layer: features.14.conv.1.0.weight
+  Total Parameters: 5,184
+  Non-Zero Parameters: 1,001
+  Pruned Parameters: 4,183
+  Sparsity: 80.69%
+  Threshold: 0.001149
+  Standard Deviation: 0.022975
+
+Layer: features.14.conv.1.1.weight
+  Total Parameters: 576
+  Non-Zero Parameters: 495
+  Pruned Parameters: 81
+  Sparsity: 14.06%
+  Threshold: 0.003676
+  Standard Deviation: 0.073522
+
+Layer: features.14.conv.2.weight
+  Total Parameters: 92,160
+  Non-Zero Parameters: 4,508
+  Pruned Parameters: 87,652
+  Sparsity: 95.11%
+  Threshold: 0.002144
+  Standard Deviation: 0.042890
+
+Layer: features.14.conv.3.weight
+  Total Parameters: 160
+  Non-Zero Parameters: 160
+  Pruned Parameters: 0
+  Sparsity: 0.00%
+  Threshold: 0.002611
+  Standard Deviation: 0.052229
+
+Layer: features.15.conv.0.0.weight
+  Total Parameters: 153,600
+  Non-Zero Parameters: 2,252
+  Pruned Parameters: 151,348
+  Sparsity: 98.53%
+  Threshold: 0.000961
+  Standard Deviation: 0.019217
+
+Layer: features.15.conv.0.1.weight
+  Total Parameters: 960
+  Non-Zero Parameters: 303
+  Pruned Parameters: 657
+  Sparsity: 68.44%
+  Threshold: 0.001750
+  Standard Deviation: 0.035000
+
+Layer: features.15.conv.1.0.weight
+  Total Parameters: 8,640
+  Non-Zero Parameters: 362
+  Pruned Parameters: 8,278
+  Sparsity: 95.81%
+  Threshold: 0.002740
+  Standard Deviation: 0.054794
+
+Layer: features.15.conv.1.1.weight
+  Total Parameters: 960
+  Non-Zero Parameters: 469
+  Pruned Parameters: 491
+  Sparsity: 51.15%
+  Threshold: 0.003582
+  Standard Deviation: 0.071648
+
+Layer: features.15.conv.2.weight
+  Total Parameters: 153,600
+  Non-Zero Parameters: 2,161
+  Pruned Parameters: 151,439
+  Sparsity: 98.59%
+  Threshold: 0.001213
+  Standard Deviation: 0.024268
+
+Layer: features.15.conv.3.weight
+  Total Parameters: 160
+  Non-Zero Parameters: 160
+  Pruned Parameters: 0
+  Sparsity: 0.00%
+  Threshold: 0.002345
+  Standard Deviation: 0.046896
+
+Layer: features.16.conv.0.0.weight
+  Total Parameters: 153,600
+  Non-Zero Parameters: 2,264
+  Pruned Parameters: 151,336
+  Sparsity: 98.53%
+  Threshold: 0.001222
+  Standard Deviation: 0.024436
+
+Layer: features.16.conv.0.1.weight
+  Total Parameters: 960
+  Non-Zero Parameters: 284
+  Pruned Parameters: 676
+  Sparsity: 70.42%
+  Threshold: 0.001778
+  Standard Deviation: 0.035562
+
+Layer: features.16.conv.1.0.weight
+  Total Parameters: 8,640
+  Non-Zero Parameters: 377
+  Pruned Parameters: 8,263
+  Sparsity: 95.64%
+  Threshold: 0.002313
+  Standard Deviation: 0.046266
+
+Layer: features.16.conv.1.1.weight
+  Total Parameters: 960
+  Non-Zero Parameters: 395
+  Pruned Parameters: 565
+  Sparsity: 58.85%
+  Threshold: 0.003854
+  Standard Deviation: 0.077082
+
+Layer: features.16.conv.2.weight
+  Total Parameters: 153,600
+  Non-Zero Parameters: 1,896
+  Pruned Parameters: 151,704
+  Sparsity: 98.77%
+  Threshold: 0.001436
+  Standard Deviation: 0.028727
+
+Layer: features.16.conv.3.weight
+  Total Parameters: 160
+  Non-Zero Parameters: 151
+  Pruned Parameters: 9
+  Sparsity: 5.62%
+  Threshold: 0.008145
+  Standard Deviation: 0.162900
+
+Layer: features.17.conv.0.0.weight
+  Total Parameters: 153,600
+  Non-Zero Parameters: 1,568
+  Pruned Parameters: 152,032
+  Sparsity: 98.98%
+  Threshold: 0.001511
+  Standard Deviation: 0.030218
+
+Layer: features.17.conv.0.1.weight
+  Total Parameters: 960
+  Non-Zero Parameters: 434
+  Pruned Parameters: 526
+  Sparsity: 54.79%
+  Threshold: 0.004236
+  Standard Deviation: 0.084718
+
+Layer: features.17.conv.1.0.weight
+  Total Parameters: 8,640
+  Non-Zero Parameters: 541
+  Pruned Parameters: 8,099
+  Sparsity: 93.74%
+  Threshold: 0.000370
+  Standard Deviation: 0.007394
+
+Layer: features.17.conv.1.1.weight
+  Total Parameters: 960
+  Non-Zero Parameters: 196
+  Pruned Parameters: 764
+  Sparsity: 79.58%
+  Threshold: 0.003448
+  Standard Deviation: 0.068963
+
+Layer: features.17.conv.2.weight
+  Total Parameters: 307,200
+  Non-Zero Parameters: 777
+  Pruned Parameters: 306,423
+  Sparsity: 99.75%
+  Threshold: 0.000566
+  Standard Deviation: 0.011310
+
+Layer: features.17.conv.3.weight
+  Total Parameters: 320
+  Non-Zero Parameters: 320
+  Pruned Parameters: 0
+  Sparsity: 0.00%
+  Threshold: 0.002313
+  Standard Deviation: 0.046266
+
+Layer: features.18.0.weight
+  Total Parameters: 409,600
+  Non-Zero Parameters: 9,404
+  Pruned Parameters: 400,196
+  Sparsity: 97.70%
+  Threshold: 0.000123
+  Standard Deviation: 0.002458
+
+Layer: features.18.1.weight
+  Total Parameters: 1,280
+  Non-Zero Parameters: 1,280
+  Pruned Parameters: 0
+  Sparsity: 0.00%
+  Threshold: 0.001678
+  Standard Deviation: 0.033565
+
+Layer: classifier.1.weight
+  Total Parameters: 17,920
+  Non-Zero Parameters: 1,837
+  Pruned Parameters: 16,083
+  Sparsity: 89.75%
+  Threshold: 0.000859
+  Standard Deviation: 0.017186
+
